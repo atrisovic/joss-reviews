@@ -16,7 +16,4 @@ jobs:
           DATAVERSE_DATASET_DOI: doi:10.70122/FK2/ALROOH
           DELETE: True
           PUBLISH: True
-          GITHUB_DIR: |
-             temp1 
-             temp2
-             temp3
+
