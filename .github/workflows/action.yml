@@ -16,3 +16,8 @@ jobs:
           DATAVERSE_DATASET_DOI: doi:10.70122/FK2/ALROOH
           DELETE: True
           PUBLISH: True
+          GITHUB_DIR:
+            - Apple
+            - Orange
+            - Strawberry
+            - Mango
