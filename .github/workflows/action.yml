@@ -16,4 +16,4 @@ jobs:
           DATAVERSE_DATASET_DOI: doi:10.70122/FK2/LAXN0V
           DELETE: TRUE
           PUBLISH: TRUE
-          GITHUB_DIR: temp1 temp2 temp3
+          GITHUB_DIR: temp1,temp2,temp3
