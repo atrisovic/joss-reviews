@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send repo to Dataverse 
-        uses: IQSS/dataverse-uploader@master
+        uses: IQSS/dataverse-uploader@v1.4
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://demo.dataverse.org
           DATAVERSE_DATASET_DOI: doi:10.70122/FK2/LAXN0V
           DELETE: TRUE
           PUBLISH: TRUE
-          GITHUB_DIR: temp1,temp2,temp3
+          GITHUB_DIR: temp1,temp2
